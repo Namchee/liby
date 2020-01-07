@@ -1,0 +1,33 @@
+{
+  "name": "namchee-boilerplate",
+  "version": "1.0.0",
+  "description": "A simple boilerplate with namchee's style",
+  "main": "index.js",
+  "scripts": {
+    "test": "ECHO: Do not test this, duh"
+  },
+  "keywords": [
+    "boilerplate",
+    "babel",
+    "eslint",
+    "typescript"
+  ],
+  "author": "Namchee",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.7.7",
+    "@babel/core": "^7.7.7",
+    "@babel/plugin-proposal-class-properties": "^7.7.4",
+    "@babel/plugin-proposal-object-rest-spread": "^7.7.7",
+    "@babel/preset-env": "^7.7.7",
+    "@babel/preset-typescript": "^7.7.7",
+    "@typescript-eslint/eslint-plugin": "^2.15.0",
+    "@typescript-eslint/parser": "^2.15.0",
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.8.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-plugin-babel": "^5.3.0",
+    "typescript": "^3.7.4",
+    "typesync": "^0.6.1"
+  }
+}
