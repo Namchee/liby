@@ -2,7 +2,7 @@
 
 [![Code Style: Google](https://img.shields.io/badge/code%20style-google-blueviolet.svg)](https://github.com/google/gts)
 
-[![Dependecies](https://david-dm.org/namchee/namchee-boilerplate.svg)](https://david-dm.org/namchee/namchee-boilerplate)
+[![devDependencies](https://david-dm.org/namchee/namchee-boilerplate/dev-status.svg)](https://david-dm.org/namchee/namchee-boilerplate?type=dev)
 
 A simple to use boilerplate with TypeScript + Babel 7 + ESLint + Webpack on the hood with a touch of namchee
 
