@@ -4,7 +4,8 @@
   "description": "A simple boilerplate with namchee's style",
   "main": "index.js",
   "scripts": {
-    "test": "ECHO: Do not test this, duh"
+    "test": "ECHO: Do not test this, duh",
+    "build": "webpack"
   },
   "keywords": [
     "boilerplate",
@@ -21,13 +22,19 @@
     "@babel/plugin-proposal-object-rest-spread": "^7.7.7",
     "@babel/preset-env": "^7.7.7",
     "@babel/preset-typescript": "^7.7.7",
+    "@types/babel__core": "^7.1.3",
+    "@types/eslint": "^6.1.3",
+    "@types/webpack": "^4.41.2",
     "@typescript-eslint/eslint-plugin": "^2.15.0",
     "@typescript-eslint/parser": "^2.15.0",
     "babel-eslint": "^10.0.3",
+    "babel-loader": "^8.0.6",
     "eslint": "^6.8.0",
     "eslint-config-google": "^0.14.0",
     "eslint-plugin-babel": "^5.3.0",
     "typescript": "^3.7.4",
-    "typesync": "^0.6.1"
+    "typesync": "^0.6.1",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
   }
 }
