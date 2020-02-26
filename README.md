@@ -4,11 +4,11 @@
 
 [![devDependencies](https://david-dm.org/namchee/namchee-boilerplate/dev-status.svg)](https://david-dm.org/namchee/namchee-boilerplate?type=dev)
 
-A simple to use boilerplate with TypeScript + Babel 7 + ESLint + Webpack on the hood with a touch of namchee
+A simple to use backend boilerplate with TypeScript + Babel 7 + ESLint + Webpack on the hood with a touch of namchee
 
 ## Installation
 
-1. Clone this repository or execute `git clone https://github.com/Namchee/namchee-boilerplate.git` in your terminal
+1. Clone this repository or execute `git clone https://github.com/Namchee/namchee-boilerplate.git` in your terminal. For GitHub user, you can also start a project from this template
 2. Run `npm install` in your terminal
 3. You're all set!
 
