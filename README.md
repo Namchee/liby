@@ -15,6 +15,7 @@ Sebuah _boilerplate_ sederhana untuk project _backend_ NodeJS dengan menggunakan
 1. Clone repo ini atau eksekusi `git clone https://github.com/Namchee/namchee-boilerplate.git` di terminal. Untuk pengguna GitHub, dapat juga menggunakan repo ini sebagai _template_ repo untuk mempermudah _development_
 2. Ketik `npm install` atau `yarn` pada terminal anda
 3. Install _dependencies_ lain yang anda butuhkan dalam proses _development_
+4. Atur [tsconfig](tsconfig.json) sesuai kebutuhan, termasuk `include` dan `exclude` supaya tidak bermasalah pada proses _build_
 
 ## FAQ
 
