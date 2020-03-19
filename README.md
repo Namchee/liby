@@ -8,6 +8,7 @@ Sebuah _boilerplate_ sederhana untuk project _backend_ NodeJS dengan menggunakan
 
 1. Config Typescript _all-in-one_, tinggal pakai
 2. Config ESLint dengan [_preset_ Google](https://github.com/google/gts), namun tidak terlalu _strict_ dan di _fine-tune_ lebih lanjut
+3. [TypeSync](https://github.com/jeffijoe/typesync) untuk mempermudah instalasi _types_ yang dibutuhkan TypeScript
 
 ## Instalasi
 
