@@ -1,21 +1,30 @@
 # Namchee's Boilerplate
 
-[![Code Style: Google](https://img.shields.io/badge/code%20style-google-blueviolet.svg)](https://github.com/google/gts)
+[![Code Style: Google](https://img.shields.io/badge/code%20style-google-blueviolet.svg)](https://github.com/google/gts) [![devDependencies](https://img.shields.io/david/dev/namchee/namchee-boilerplate)](https://david-dm.org/namchee/namchee-boilerplate?type=dev)
 
-[![devDependencies](https://david-dm.org/namchee/namchee-boilerplate/dev-status.svg)](https://david-dm.org/namchee/namchee-boilerplate?type=dev)
+Sebuah _boilerplate_ sederhana untuk project _backend_ NodeJS dengan menggunakan Typescript dan ESLint
 
-A simple to use backend boilerplate with TypeScript + Babel 7 + ESLint + Webpack on the hood with a touch of namchee
+## Fitur
 
-## Installation
+1. Config Typescript _all-in-one_, tinggal pakai
+2. Config ESLint dengan [_preset_ Google](https://github.com/google/gts), namun tidak terlalu _strict_ dan di _fine-tune_ lebih lanjut
 
-1. Clone this repository or execute `git clone https://github.com/Namchee/namchee-boilerplate.git` in your terminal. For GitHub user, you can also start a project from this template
-2. Run `npm install` in your terminal
-3. You're all set!
+## Instalasi
+
+1. Clone repo ini atau eksekusi `git clone https://github.com/Namchee/namchee-boilerplate.git` di terminal. Untuk pengguna GitHub, dapat juga menggunakan repo ini sebagai _template_ repo untuk mempermudah _development_
+2. Ketik `npm install` atau `yarn` pada terminal anda
+3. Install _dependencies_ lain yang anda butuhkan dalam proses _development_
 
 ## FAQ
 
-### Why does `webpack` doesn't exist yet there's a `webpack.config.js`?
+### Mengapa tidak menggunakan `webpack`?
 
-I've been thinking about this too. But since `serverless` framework requires special webpack module, I must ditch the normal `webpack` and let user to choose their webpack flavor.
+Karena _server-side_ JavaScript tidak membutuhkan _bundling_. `webpack` masuk akal pada _front-end_ karena browser tidak memiliki _module_, sedangkan NodeJS memiliki `require` sebagai _module system_ mereka.
 
-Side Note: I only recommend webpack for now, but maybe it will change and the config will be deleted.
+### Mengapa tidak menggunakan `babel`?
+
+Karena _server-side_ JavaScript tidak memerlukan _transpile_. Developerlah yang seharusnya mengontrol versi Node yang digunakan sesuai kebutuhan aplikasi.
+
+## Lisensi
+
+_Boilerplate_ ini menggunakan lisensi [MIT](LICENSE)
