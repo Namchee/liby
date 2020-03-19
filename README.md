@@ -8,7 +8,8 @@ Sebuah _boilerplate_ sederhana untuk project _backend_ NodeJS dengan menggunakan
 
 1. Config Typescript _all-in-one_, tinggal pakai
 2. Config ESLint dengan [_preset_ Google](https://github.com/google/gts), namun tidak terlalu _strict_ dan di _fine-tune_ lebih lanjut
-3. [TypeSync](https://github.com/jeffijoe/typesync) untuk mempermudah instalasi _types_ yang dibutuhkan TypeScript
+3. Update _dependency_ berkala
+4. [TypeSync](https://github.com/jeffijoe/typesync) untuk mempermudah instalasi _types_ yang dibutuhkan TypeScript
 
 ## Instalasi
 
@@ -26,6 +27,10 @@ Karena _server-side_ JavaScript tidak membutuhkan _bundling_. `webpack` masuk ak
 ### Mengapa tidak menggunakan `babel`?
 
 Karena _server-side_ JavaScript tidak memerlukan _transpile_. Developerlah yang seharusnya mengontrol versi Node yang digunakan sesuai kebutuhan aplikasi.
+
+### Seberapa sering _update_ dependency dilakukan?
+
+Sesering yang saya bisa, setidaknya 2 minggu sekali.
 
 ## Lisensi
 
