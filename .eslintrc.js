@@ -45,12 +45,13 @@ module.exports = {
         'requireForBlockBody': true,
       },
     ],
-    'require-jsdoc': 'off',
-    'valid-jsdoc': 'off',
-    'new-cap': 'off',
+    'require-jsdoc': 'off', // favor eslint-plugin-jsdoc
+    'valid-jsdoc': 'off', // favor eslint-plugin-jsdoc
+    'new-cap': 'off', // prevent decorator issues
+    'no-invalid-this': 'off', // prevent `this` false alarm on arrow functions
+    'require-atomic-updates': 'off', // prevent async false alarm
+    '@typescript-eslint/no-var-requires': 'off', // enforce ES6 import style
     '@typescript-eslint/no-explicit-any': 'off',
-    'no-invalid-this': 'off',
-    'require-atomic-updates': 'off',
-    '@typescript-eslint/no-var-requires': 'off'
+    '@typescript-eslint/camelcase': 'off' // prevent camelCase false alarm
   },
 };
