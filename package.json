@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "ECHO: Do not test this, duh",
-    "refresh": "rm -rf node_modules/ dist/ build/ && npm i"
+    "refresh": "rm -rf node_modules/ dist/ build/ && npm i",
+    "postuninstall": "npm prune"
   },
   "keywords": [
     "boilerplate",
@@ -15,17 +16,19 @@
   "author": "Namchee",
   "license": "MIT",
   "devDependencies": {
-    "@types/eslint": "^6.1.8",
-    "@typescript-eslint/eslint-plugin": "^2.24.0",
-    "@typescript-eslint/parser": "^2.24.0",
+    "@types/dotenv": "^8.2.0",
+    "@types/eslint": "^6.8.1",
+    "@typescript-eslint/eslint-plugin": "^2.34.0",
+    "@typescript-eslint/parser": "^2.34.0",
     "cross-env": "^7.0.2",
-    "eslint": "^6.8.0",
+    "dotenv": "^8.2.0",
+    "eslint": "^7.12.1",
     "eslint-config-google": "^0.14.0",
-    "eslint-plugin-babel": "^5.3.0",
-    "eslint-plugin-jsdoc": "^22.1.0",
+    "eslint-plugin-babel": "^5.3.1",
+    "eslint-plugin-jsdoc": "^22.2.0",
     "rimraf": "^3.0.2",
-    "ts-node": "^8.7.0",
-    "typescript": "^3.8.3",
+    "ts-node": "^8.10.2",
+    "typescript": "^4.0.5",
     "typesync": "^0.6.1"
   }
 }
