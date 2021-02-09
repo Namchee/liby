@@ -1,7 +1,5 @@
 module.exports = {
   'env': {
-    'browser': true,
-    'es6': true,
     'node': true,
   },
   'extends': [
@@ -16,7 +14,7 @@ module.exports = {
   },
   'parser': '@typescript-eslint/parser',
   'parserOptions': {
-    'ecmaVersion': 2018,
+    'ecmaVersion': 2020,
     'sourceType': 'module',
   },
   'plugins': [
@@ -32,7 +30,7 @@ module.exports = {
     ],
     'linebreak-style': [ // change this accordingly
       'warn',
-      'windows',
+      'unix',
     ],
     'object-curly-spacing': [
       'error',
@@ -47,8 +45,6 @@ module.exports = {
     ],
     'require-jsdoc': 'off', // favor eslint-plugin-jsdoc
     'valid-jsdoc': 'off', // favor eslint-plugin-jsdoc
-    'new-cap': 'off', // prevent decorator issues
-    'no-invalid-this': 'off', // prevent `this` false alarm on arrow functions
     'require-atomic-updates': 'off', // prevent async false alarm
     '@typescript-eslint/no-var-requires': 'off', // enforce ES6 import style
     '@typescript-eslint/no-explicit-any': 'off',

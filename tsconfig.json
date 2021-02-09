@@ -1,8 +1,9 @@
 {
   "compilerOptions": {
-    "target": "es2017",
+    "target": "esnext",
     "lib": [
-      "ES2019.Array"
+      "ES2019.Array",
+      "ES2020.Promise"
     ],
     "module": "commonjs",
     "allowJs": true,
@@ -20,6 +21,9 @@
     "forceConsistentCasingInFileNames": true,
     "resolveJsonModule": true,
   },
+  "include": [
+    "src/**/*.ts"
+  ],
   "exclude": [
     "node_modules"
   ]
