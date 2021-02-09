@@ -1,23 +1,19 @@
 module.exports = {
   'env': {
+    'es2021': true,
     'node': true,
   },
   'extends': [
-    'eslint:recommended',
-    'plugin:@typescript-eslint/eslint-recommended',
-    'plugin:@typescript-eslint/recommended',
+    'plugin:jsdoc/recommended',
     'google',
   ],
-  'globals': {
-    'Atomics': 'readonly',
-    'SharedArrayBuffer': 'readonly',
-  },
   'parser': '@typescript-eslint/parser',
   'parserOptions': {
-    'ecmaVersion': 2020,
+    'ecmaVersion': 12,
     'sourceType': 'module',
   },
   'plugins': [
+    '@typescript-eslint',
     'jsdoc',
   ],
   'rules': {
@@ -48,6 +44,6 @@ module.exports = {
     'require-atomic-updates': 'off', // prevent async false alarm
     '@typescript-eslint/no-var-requires': 'off', // enforce ES6 import style
     '@typescript-eslint/no-explicit-any': 'off',
-    '@typescript-eslint/camelcase': 'off' // prevent camelCase false alarm
+    '@typescript-eslint/camelcase': 'off', // prevent camelCase false alarm
   },
 };
