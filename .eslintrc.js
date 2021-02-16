@@ -45,5 +45,7 @@ module.exports = {
     '@typescript-eslint/no-var-requires': 'off', // enforce ES6 import style
     '@typescript-eslint/no-explicit-any': 'off',
     '@typescript-eslint/camelcase': 'off', // prevent camelCase false alarm
+    'no-unused-vars': 'off', // prevent enum export false alarm
+    '@typescript-eslint/no-unused-vars': 'error',
   },
 };
