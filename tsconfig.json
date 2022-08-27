@@ -5,9 +5,9 @@
       "ES2019.Array",
       "ES2020.Promise"
     ],
-    "module": "commonjs",
+    "module": "ESNext",
     "allowJs": true,
-    "outDir": "./build",
+    "outDir": "./dist",
     "preserveConstEnums": true,
     "removeComments": true,
     "strict": true,
