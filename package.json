@@ -1,12 +1,10 @@
 {
-  "name": "namchee-boilerplate",
+  "name": "liby",
   "version": "1.0.0",
-  "description": "A simple boilerplate with namchee's style",
+  "description": "Personal quickstart template for TypeScript libraries",
   "main": "index.js",
   "scripts": {
-    "test": "ECHO: Do not test this, duh",
-    "refresh": "rm -rf node_modules/ dist/ build/ && npm i",
-    "postuninstall": "npm prune"
+    "test": "vitest"
   },
   "keywords": [
     "boilerplate",
