@@ -1,3 +1,3 @@
 module.exports = {
-  extends: ['namchee'],
+  extends: ['eslint-config-namchee'],
 };
