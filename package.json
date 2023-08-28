@@ -12,6 +12,7 @@
   },
   "types": "./dist/index.d.ts",
   "scripts": {
+    "preinstall": "npx only-allow pnpm",
     "test": "vitest --passWithNoTests",
     "coverage": "vitest run --coverage",
     "build": "tsup src/index.ts --dts --format esm,cjs --minify",
